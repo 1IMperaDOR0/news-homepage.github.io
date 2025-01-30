@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
     <link rel="shortcut icon" type="imagex/png" href="assets/images/favicon-32x32.png"/>
     <title>News homepage</title>
@@ -12,34 +15,83 @@
         <div>
             <img src="assets/images/logo.svg"/>
         </div>
-        <main>
+        <img class="menu" src="assets/images/icon-menu.svg"/>
+        <nav>
             <ul>
-                <li>Home</li>
-                <li>New</li>
-                <li>Popular</li>
-                <li>Trending</li>
-                <li>Categores</li>
+                <div>
+                    <img class="close" src="assets/images/icon-menu-close.svg"/>
+                </div>
+                <li><a href="">Home</a></li>
+                <li><a href="">New</a></li>
+                <li><a href="">Popular</a></li>
+                <li><a href="">Trending</a></li>
+                <li><a href="">Categores</a></li>
             </ul>
-        </main>
+        </nav>
     </header>
     <section>
-        <div class="up">
-
+        <div>
+            <div class="img">
+                <img src="assets/images/image-web-3-desktop.jpg"/>
+            </div>
+            <div class="content">
+                <div>
+                    <h1>The Bright Future of Web 3.0?</h1>
+                </div>
+                <div>
+                    <p>We dive into the next evolution of the web that claims to put the power of the plaforms back into the hands of the peoples. But is it really fulfiling its promise?</p>
+                    <a href=""><button>R E A D &nbsp;&nbsp; M O R E</button></a>
+                </div>
+            </div>
         </div>
-        <div class="down">
-            <div>
-
+        <div class="contentList">
+            <div><h2>New</h2></div>
+            <div class="line">
+                <h3><a href="">Hydrogen VS Eletric Cars</a></h3>
+                <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
             </div>
-            <div>
-                
+            <div class="line">
+                <h3><a href="">The Downsides of AI Artistry</a></h3>
+                <p>Waht are the possible adverse affects of on-demand AI image generation?</p>
             </div>
-            <div>
-                
-            </div>
-            <div>
-                
+            <div class="line off">
+                <h3><a href="">Is VC Funding Drying Up?</a></h3>
+                <p>Private funding by VC firms is sown 50% YOY. We take a look at what that means.</p>
             </div>
         </div>
     </section>
+    <footer>
+        <div class="new">
+            <div>
+                <img src="assets/images/image-retro-pcs.jpg"/>
+            </div>
+            <div class="newInfo">
+                <h3>01</h3>
+                <h4><a href="">Reviving Retro PCs</a></h4>
+                <p>What happends when old PCs are given modern upgrades?</p>
+            </div>
+        </div>
+        <div class="new">
+            <div>
+                <img src="assets/images/image-top-laptops.jpg"/>
+            </div>
+            <div class="newInfo">
+                <h3>02</h3>
+                <h4><a href="">Top 10 Laptops of 2022</a></h4>
+                <p>Our best picks for various needs and budgets.</p>
+            </div>
+        </div>
+        <div class="new">
+            <div>
+                <img src="assets/images/image-gaming-growth.jpg"/>
+            </div>
+            <div class="newInfo">
+                <h3>03</h3>
+                <h4><a href="">The Growth of Gaming</a></h4>
+                <p>How the pandemic has sparked fresh opportunities.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>

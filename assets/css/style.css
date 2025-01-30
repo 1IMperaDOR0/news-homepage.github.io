@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow', Arial, Helvetica, sans-serif;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+    overflow-x: hidden;
+    color: #000;
+}
+body {
+    padding: calc(6%) calc(10%);
+}
+.menu, .close {
+    display: none;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+ul {
+    display: flex;
+    gap: 54px;
+}
+li a, p {
+    font-size: 16px;
+    color: hsl(236, 13%, 42%);
+}
+li a:hover, h2, h3 a:hover {
+    color: hsl(35, 77%, 62%)
+}
+h1, h3 a, button {
+    color: hsl(240, 100%, 5%);
+}
+h3 a{
+    color: #fff;
+}
+h1, h2 {
+    font-size: 40px;
+}
+p {
+    line-height: 25px;
+}
+section {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 65px;
+}
+.img img {
+    width: 100%;
+    margin-bottom: 50px;
+}
+.content {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+button {
+    margin-top: 20px;
+    padding: 15px 30px;
+    border: none;
+    background-color: hsl(5, 85%, 63%);
+    font-weight: 800;
+    cursor: pointer;
+}
+button:hover {
+    background-color: hsl(240, 100%, 5%);
+    color: #fff;
+}
+.contentList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+    padding: 25px;
+    background-color: hsl(240, 100%, 5%);
+}
+.contentList .line {
+    border-bottom: 1px solid hsl(236, 13%, 42%);
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.contentList .line.off {
+    border: 0;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.new {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.new img {
+    max-width: 100%;
+}
+.newInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    width: 315px;
+}
+.newInfo h3 {
+    font-size: 30px;
+    color:hsl(5, 85%, 63%);
+}
+.newInfo h4 a:hover {
+    color:hsl(5, 85%, 63%);
+}
+
+@media(max-width: 1024px) {
+    section {
+        flex-direction: column;
+    }
+    footer {
+        flex-direction: column;
+    }
+}
+@media(max-width: 768px) {
+    .content {
+        flex-direction: column;
+    }
+}
+@media(max-width: 734px) {
+    nav {
+        display: none;
+        position: fixed;
+        background-color: #ccc;
+        width: 70vw;
+        top: 0;
+        right: 0;
+        bottom: 0;
+    }
+    .menu {
+        display: block;
+    }
+    nav div {
+        display: flex;
+        justify-content: right;
+    }
+    .close {
+        display: block;
+        justify-content: right;
+    }
+    ul {
+        flex-direction: column;
+        margin: 50px;
+    }
+}
