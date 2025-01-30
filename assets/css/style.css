@@ -151,6 +151,7 @@ footer {
     .close {
         display: block;
         justify-content: right;
+        margin-right: 20px;
     }
     ul {
         flex-direction: column;
