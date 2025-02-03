@@ -57,8 +57,13 @@ section {
 }
 .content {
     display: flex;
-    align-items: center;
-    gap: 25px;
+    gap: 35px;
+}
+.contentTitle h1 {
+    font-size: 55px;
+}
+.contentDesc {
+    max-width: 340px;
 }
 button {
     margin-top: 20px;
@@ -81,11 +86,14 @@ button:hover {
     background-color: hsl(240, 100%, 5%);
 }
 .contentList .line {
-    border-bottom: 1px solid hsl(236, 13%, 42%);
+    border-bottom: 1px solid #60617a;
     padding-bottom: 20px;
     display: flex;
     flex-direction: column;
     gap: 5px;
+}
+.contentList .line p {
+    color: #60617a;
 }
 .contentList .line.off {
     border: 0;
@@ -121,6 +129,12 @@ footer {
 @media(max-width: 1024px) {
     section {
         flex-direction: column;
+    }
+    .content {
+        align-items: center;
+    }
+    .contentDesc {
+        max-width: 600px;
     }
     footer {
         flex-direction: column;
