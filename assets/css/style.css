@@ -57,13 +57,16 @@ section {
 }
 .content {
     display: flex;
-    gap: 35px;
+    gap: calc(17%);
 }
 .contentTitle h1 {
     font-size: 55px;
 }
+.contentTitle {
+    max-width: 345px;
+}
 .contentDesc {
-    max-width: 340px;
+    max-width: 375px;
 }
 button {
     margin-top: 20px;
