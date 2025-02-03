@@ -25,11 +25,11 @@ Users should be able to:
 
 ### Screenshot
 
-![desktop-design](assets/images/desktop-design.jpg)
-![mobile-design-up](assets/images/mobile-design-up.jpg)
-![mobile-design-mid](assets/images/mobile-design-mid.jpg)
-![mobile-design-down](assets/images/mobile-design-down.jpg)
-![mobile-menu-design](assets/images/mobile-design-menu.jpg)
+![desktop-design](../assets/images/desktop-design.jpg)
+![mobile-design-up](../assets/images/mobile-design-up.jpg)
+![mobile-design-mid](../assets/images/mobile-design-mid.jpg)
+![mobile-design-down](../assets/images/mobile-design-down.jpg)
+![mobile-menu-design](../assets/images/mobile-design-menu.jpg)
 
 ### Links
 
