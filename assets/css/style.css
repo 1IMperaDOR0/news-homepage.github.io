@@ -61,6 +61,7 @@ section {
 }
 .contentTitle h1 {
     font-size: 55px;
+    line-height: 55px;
 }
 .contentTitle {
     max-width: 345px;
