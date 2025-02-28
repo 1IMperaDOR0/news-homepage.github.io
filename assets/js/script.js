@@ -1,17 +1,17 @@
 let menu = document.querySelector(".menu").addEventListener("click", () => {
-    let nav = document.querySelector('nav')
-    nav.style.display = 'block'
-    let block = document.querySelector(".block")
-    block.style.display = 'block'
+    let headerUl = document.querySelector(".header ul")
+    headerUl.style.display = 'grid'
+    let div = document.querySelector(".header div")
+    div.style.display = 'flex' 
     let menu = document.querySelector(".menu")
     menu.style.display = 'none'
 })
 
-let close = document.querySelector(".close").addEventListener("click", () => {
-    let nav = document.querySelector('nav')
-    nav.style.display = 'none'
-    let block = document.querySelector(".block")
-    block.style.display = 'none'
+let close = document.querySelector(".menuClose").addEventListener("click", () => {
+    let headerUl = document.querySelector(".header ul")
+    headerUl.style.display = 'none'
+    let div = document.querySelector(".header div")
+    div.style.display = 'none' 
     let menu = document.querySelector(".menu")
     menu.style.display = 'block'
 })
