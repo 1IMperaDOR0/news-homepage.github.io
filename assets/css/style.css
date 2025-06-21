@@ -33,22 +33,21 @@ body{
     width: 30px;
     height: 30px;
 }
-.img{
+.img {
     grid-area: img;
-    max-height: fit-content;
     background-image: url(../images/image-web-3-desktop.jpg);
     background-position: center;
     background-size: cover;
     height: 350px;
 }
-.ad0{
+.ad0 {
     grid-area: ad0;
 }
-.ad1{
+.ad1 {
     gap: 35px;
     grid-area: ad1;
 }
-.content{
+.content {
     background-color: hsl(240, 100%, 5%);
     display: flex;
     flex-direction: column;
@@ -58,17 +57,17 @@ body{
     gap: 40px;
     grid-area: content;
 }
-.footer0{
+.footer0 {
     display: flex;
     padding-bottom: 25px;
     grid-area: footer0;
 }
-.footer1{
+.footer1 {
     display: flex;
     padding-bottom: 25px;
     grid-area: footer1;
 }
-.footer2{
+.footer2 {
     display: flex;
     padding-bottom: 25px;
     grid-area: footer2;
