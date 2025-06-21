@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://github.com/1IMperaDOR0/newshomepage.github.io)
-- Live Site URL: (https://1imperador0.github.io/newshomepage.github.io/)
+- Solution URL: (https://github.com/1IMperaDOR0/news-homepage.github.io)
+- Live Site URL: (https://1imperador0.github.io/news-homepage.github.io/)
 
 ## My process
 
